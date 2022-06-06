@@ -8,8 +8,6 @@ def picker(prices):
         for comp_price in rest_of_prices:
             if comp_price - price > largest_profit:
                 largest_profit= comp_price - price
-                print(prices)
-                print(rest_of_prices)
                 first_index= prices.index(price)
                 second_index = prices.index(comp_price)
 
